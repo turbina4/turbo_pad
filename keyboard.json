@@ -1,0 +1,49 @@
+{
+    "manufacturer": "Turbina4",
+    "keyboard_name": "Turbo_pad",
+    "maintainer": "Turbina4",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+    "dynamic_keymap": {
+        "layer_count": 4
+    },
+    "matrix_pins": {
+        "cols": ["A6", "A5", "A4"],
+        "rows": ["B0", "B1", "B2", "A7"]
+    },
+    "processor": "STM32F072",
+    "url": "https://github.com/turbina4",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x5470",
+        "vid": "0x5453"
+    },
+    "layouts": {
+        "LAYOUT_turbopad": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [3, 0], "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1, "y": 3 },
+                { "matrix": [3, 2], "x": 2, "y": 3 }
+            ]
+        }
+    }
+}

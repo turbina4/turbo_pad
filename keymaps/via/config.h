@@ -1,0 +1,17 @@
+#pragma once
+
+#define OLED_DISPLAY_128X64
+#define OLED_TIMEOUT 0
+
+
+#define I2C_DRIVER I2CD2
+
+#define I2C1_SCL_PIN B10
+#define I2C1_SCL_PAL_MODE 1
+
+#define I2C1_SDA_PIN B11
+#define I2C1_SDA_PAL_MODE 1
+
+#define ENCODERS_PAD_A {A15}
+#define ENCODERS_PAD_B {A14}
+#define ENCODER_RESOLUTION 4
